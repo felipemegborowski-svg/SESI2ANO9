@@ -113,17 +113,68 @@ Bem-vindo à programação em C.</p>
 
 <img src="5.PNG">
 
+<p>
+    Explicação:
+    O programa inclui a biblioteca stdio.h e inicia a função main.
+    
+    A variável numero é criada como um número inteiro.
+    
+    O printf pede um número ao usuário e o scanf armazena o valor na variável.
+    
+    Para encontrar o antecessor, o programa diminui 1 usando numero - 1.
+    
+    Para encontrar o sucessor, aumenta 1 usando numero + 1.
+    
+    Depois, os resultados são mostrados com printf.
+</p>
+
 <h2>Atividade 6 – Média</h2>
 
 <p>Leia duas notas (float) e calcule a média.</p>
 
 <img src="6.PNG">
 
+
+<p>
+    Explicação:
+    O programa utiliza stdio.h para permitir os comandos de entrada e saída.
+    
+    As variáveis são do tipo float, porque as notas podem ter números decimais, como 7.5.
+    
+    nota1 guarda a primeira nota, nota2 guarda a segunda e media guarda o resultado.
+    
+    %f é utilizado no scanf para receber números decimais.
+    
+    A expressão (nota1 + nota2) / 2 soma as duas notas e divide o resultado por 2.
+    
+    Os parênteses fazem a soma acontecer antes da divisão.
+    
+    %.2f mostra o resultado com duas casas decimais.
+</p>
+
 <h2>Atividade 7 – Celsius para Fahrenheit</h2>
 
 <p>Leia uma temperatura em Celsius e converta usando F=(C*9/5)+32.</p>
 
 <img src="7.PNG">
+<p>
+    Explicação:
+    O programa começa incluindo stdio.h e inicia a função main.
+    
+    São criadas duas variáveis float, pois temperaturas podem possuir casas decimais.
+    
+    celsius armazena a temperatura informada pelo usuário.
+    
+    fahrenheit armazena o resultado da conversão.
+    
+    O scanf recebe a temperatura em Celsius.
+    
+    Depois, o programa utiliza a fórmula da atividade: primeiro multiplica Celsius por 9, divide por 5 e adiciona 32.
+    
+    O resultado é armazenado em fahrenheit.
+    
+    Por fim, o printf mostra a temperatura convertida com duas casas decimais.
+</p>
 
 <h2>Atividade 8 – Área do retângulo</h2>
 
@@ -131,11 +182,48 @@ Bem-vindo à programação em C.</p>
 
 <img src="8.PNG">
 
+<p>
+    Explicação:
+    O programa utiliza a biblioteca stdio.h e inicia pela função main.
+    
+    São criadas três variáveis float: base, altura e area.
+    
+    O programa pede a base e a altura e utiliza scanf para receber os valores.
+    
+    Depois, utiliza o operador * para multiplicar a base pela altura.
+    
+    Essa multiplicação corresponde à fórmula da área do retângulo.
+    
+    O resultado é armazenado em area.
+    
+    O printf mostra a área com duas casas decimais.
+</p>
+
 <h2>Atividade 9 – Salário</h2>
 
 <p>Leia valor da hora e quantidade de horas trabalhadas. Calcule o salário.</p>
 
 <img src="9.PNG">
+<p>
+    Explicação:
+    O programa começa incluindo stdio.h e inicia a função main.
+    
+    São criadas três variáveis float.
+    
+    valorHora armazena quanto a pessoa recebe por hora.
+    
+    horas armazena a quantidade de horas trabalhadas.
+    
+    salario armazena o resultado.
+    
+    O programa recebe o valor da hora e a quantidade de horas através do scanf.
+    
+    Depois, multiplica o valor da hora pela quantidade de horas.
+    
+    O resultado é armazenado em salario.
+    
+    O printf mostra o resultado utilizando R$ e duas casas decimais.
+</p>
 
 <h2>Atividade 10 – Calculadora</h2>
 
@@ -143,6 +231,24 @@ Bem-vindo à programação em C.</p>
 divisão.</p>
 
 <img src="10.PNG">
+<p>
+    Explicação:
+    O programa inclui a biblioteca stdio.h e começa na função main.
+    
+    São criadas duas variáveis inteiras para armazenar os números.
+    
+    O usuário informa os dois valores através dos scanf.
+    
+    Depois, o programa realiza a soma, subtração e multiplicação.
+    
+    O if verifica se o segundo número é diferente de zero antes de realizar a divisão.
+    
+    O operador / realiza a divisão inteira.
+    
+    O operador % encontra o resto da divisão. Por exemplo, 10 dividido por 3 tem resto 1, então o resultado de 10 % 3 é 1.
+    
+    Se o segundo número for zero, o else mostra uma mensagem informando que não é possível dividir por zero.
+</p>
 
 <h2> Desafio Extra</h2>
 
@@ -150,5 +256,39 @@ divisão.</p>
 dados e a média final.,</p>
 
 <img src="11.PNG">
+<p>
+    Explicação:
+    O programa começa incluindo a biblioteca stdio.h, que permite utilizar printf e scanf.
+    
+    A função main indica onde o programa começa.
+    
+    A variável nome é criada como texto e possui espaço para armazenar até 50 caracteres.
+    
+    A variável idade é um número inteiro.
+    
+    As variáveis nota1, nota2 e media são do tipo float, permitindo armazenar números com casas decimais.
+    
+    O primeiro printf pede o nome e o scanf recebe essa informação.
+    
+    Depois, o programa pede a idade e armazena o valor na variável idade.
+    
+    Em seguida, recebe as duas notas.
+    
+    Depois que todas as informações foram recebidas, o programa calcula a média. As duas notas são somadas e o resultado é dividido por 2.
+    
+    O printf com ===== FICHA DO ALUNO ===== serve para criar um título e deixar a apresentação mais organizada.
+    
+    Depois, os outros printf mostram o nome, a idade, as duas notas e a média.
+    
+    %s mostra o texto do nome.
+    
+    %d mostra a idade, que é um número inteiro.
+    
+    %.2f mostra as notas e a média com duas casas decimais.
+    
+    O \n organiza as informações em linhas diferentes.
+    
+    Por fim, return 0 encerra o programa corretamente.
+</p>
 </body>
 </html>
